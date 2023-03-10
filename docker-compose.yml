@@ -1,0 +1,8 @@
+services:
+    python:
+        image: youtubeimagen:latest
+        volumes:
+            - ./app:/usr/src/app
+        working_dir: /usr/src/app
+        command: python main.py
+
